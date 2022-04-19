@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Simpsons';
+    src: url('Homer_Simpson_Revised.ttf') format('truetype') ;
+    }
+
+ .menu-topo{
+     margin-left: 40px;
+        
+} 
+.caixote{
+    border-color: none;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+nav{
+    position: fixed;    
+    text-align: center;
+    background-color: #ffff00;
+    width: 100%;
+    top: 0;
+    font-family: 'Simpsons';
+    font-size: 38px;
+      
+    }
+
+nav a:hover{
+    color: blue;
+   }
+nav li{
+    display: inline-block;
+    margin: 0 0 0px;
+}
+body{
+    font-family: 'Simpsons', Times, serif;
+    
+}

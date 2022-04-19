@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> Calculator de moedas</title>
+  <link rel="stylesheet" href="../reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href='../menu-style.css'>
+
+</head>
+<body>
+  <nav>
+    <ul>
+      <li class="menu-topo"><a href='../index.html'>Página Inicial</label></a></li>
+      <li class="menu-topo"><a href='../CalcMedia/media.html'> Calculadora de Média</label></a></li>
+      <li class="menu-topo"><a href='../Mentalista/index.html'>Mentalista</label></li></a>
+      <li class="menu-topo"><a href='../ConversorDeMoedas/index.html'>Conversor De Moedas</label></li></a>
+      <li class="menu-topo"><a href='../FilmesFavoritos/index.html'>Sua lista de filmes Favoritos</label></li></a>
+    </ul>
+  </nav>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1>Faça sua converção sua converção</h1>
+  <div>
+    <select id="from_currency"></select>
+    <input type="number" id="from_ammount" value="1" />
+  </div>
+  <button id="swap"> ⇅ </button>
+  <div>
+    <select id="to_currency"></select>
+    <input type="number" id="to_ammount" />
+    
+  </div>
+  
+</div>
+
+<br><span id="tax_info" class="page-info"></span>
+
+
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+  min-height: 900px;
+  text-align: center;
+  background-image: url("OsSimpsons.jpg");
+  background-color: #000000;
+  background-size:cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-position-y: 30px;
+
+}
+
+.container {
+  max-width: 330px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.page-title {
+  color: #000000;
+  margin: 0 0 5px;
+  font-size: 50px;
+}
+
+.page-subtitle {
+  color: #000000;
+  margin: 5px 5px 15px; 
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#filmeAdicionado img {
+  margin: 10px;
+  max-height: 250px;
+  
+}
+
+#filmeAdicionado{
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold ;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.divDoFilme{
+  background-color: rgba(255, 255, 255, 0.582);
+  margin:3px;
+}
+.divDoFilme:hover{
+  background-color: rgba(255, 255, 0, 0.582);
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+
+  text-align: center;
+  margin: 10px 10px 5px;
+  padding: 10px 30px;
+  font-family: 'Simpsons';
+  font-size: 20px;
+  outline-offset: 0px;
+  width: 60%;  
+  
+}
+
+button {
+  border: 0;
+  color: #000000;
+  background: #ffff00;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: 'Simpsons';
+  font-size: 30px;
+}
+

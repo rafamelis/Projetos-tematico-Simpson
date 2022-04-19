@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+  background-image: url("homer2.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-position-y: 30px;
+  
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  
+  margin-top: 200px;
+}
+
+.page-title {
+  color: #000000;
+  margin: 0 0 5px;
+  font-size: 45px;
+}
+
+.page-subtitle {
+  color: #000000;
+  margin-top: 16px;
+  font-size: 30px;
+}
+.resultado{
+  text-align: center;
+  font-size: 30px;
+}
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  border: 0;
+  color: #000000;
+  background: #ffff00;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Simpsons';
+  font-size: 30px;
+}
+.resultado {
+  color: #000000;
+  text-align: center;
+  margin-top: 16px;
+}

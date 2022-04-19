@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title> Calculator</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href='../menu-style.css'>
+    <link rel="stylesheet" href="script.js">
+    
+  <body>
+    <nav>
+      <ul>
+          <li class="menu-topo"><a href='../index.html'>Página Inicial</label></a></li>
+          <li class="menu-topo"><a href='../CalcMedia/media.html'> Calculadora de Média</label></a></li>
+          <li class="menu-topo"><a href='../Mentalista/index.html'>Mentalista</label></li></a>
+          <li class="menu-topo"><a href='../ConversorDeMoedas/index.html'>Conversor De Moedas</label></li></a>
+          <li class="menu-topo"><a href='../FilmesFavoritos/index.html'>Sua lista de filmes Favoritos</label></li></a>
+      </ul>
+    </nav>
+    <main class="containerdenotas">
+
+        <h1 class="page-title"> Calculadora de média</h1>
+        <p class="page-title">Descubra qual a sua média de nota de todas as provas! </p>
+        <h1 class="page-title">Digite suas notas!</h1>
+
+      <div>  
+        <h1 class="NotasBim"> Primeiro Bimestre</h1>
+        
+        <input class="entrada-notas" type="number" placeholder="Primeira nota" id="PrimeiraNota">
+        <input class="entrada-notas" type="number" placeholder="Segunda nota" id="SegundaNota" >
+
+      </div>
+
+      <div>
+        <h1 class="NotasBim"> Segundo Bimestre</h1>
+           
+        <input class="entrada-notas" type="number" placeholder="Primeira nota" id="TerceiraNota">
+        <input class="entrada-notas" type="number" placeholder="Segunda nota" id="QuartaNota" >
+
+      </div>
+
+      <div>
+        <h1 class="NotasBim"> Terceiro Bimestre </h1>
+           
+        <input class="entrada-notas" type="number" placeholder="Primeira nota" id="QuintaNota">
+        <input class="entrada-notas" type="number" placeholder="Segunda nota" id="SextaNota" >
+      </div>
+
+      <div>
+        <h1 class="NotasBim"> Quarto Bimestre</h1>
+           
+        <input class="entrada-notas" type="number" placeholder="Primeira nota" id="SetimaNota">
+        <input class="entrada-notas" type="number" placeholder="Segunda nota" id="OitavaNota" >
+
+      </div>
+      <script type="text/javascript" src="script.js"></script>
+       
+       <button type="button" class="botao" onclick="calcular()" value="Calcular" >Calcular</button>
+
+       <h2 class="resposta" id="SuaNota"></h2>
+       <div class="resultado" id="resultado">
+        <!-- <img src="bart.jpg" alt="bart"> -->
+      </div>
+    </main>
+    
+    
+    
+     
+
+  
+
+
+
+    
+    
+  </body>
+</html>

@@ -1,0 +1,59 @@
+body{
+    min-height: 900px;
+    background-image: url('bart2.jpg');  
+    background-color: #000000;
+    background-size:cover;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+    background-position-y: 25px;
+        
+  }
+  
+ 
+.page-title {
+    color:#000000;
+    margin: 0 0 5px;
+    font-weight: bolder;
+    font-size: 45px;
+
+  }
+.NotasBim{
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: #000000;
+
+  }
+   
+.notas{
+    color:#000000;
+    display:block;
+  }
+.containerdenotas{
+    text-align: center;
+    margin-top: 7%;
+  }
+
+.botao {
+  border: 0;
+  color: #000000;
+  background: #ffff00;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 30px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Simpsons';
+}
+.entrada-notas{
+    margin: 10px 10px 5px;
+    padding: 10px;
+    font-family: 'Simpsons';
+    font-size: 20px;
+
+
+  }
+
+  
